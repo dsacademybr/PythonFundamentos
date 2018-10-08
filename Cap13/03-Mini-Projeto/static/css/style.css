@@ -1,0 +1,59 @@
+body {
+    width: 1200px;
+    margin: 16px auto;
+}
+
+.myOptions {
+    margin: 15px 30px;
+
+}
+
+.game {
+
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    //border: 1px solid black;
+
+}
+
+.options {
+    width: 200px;
+    height: inherit;
+    padding-top: 80px;
+    align-self: right;
+    float: right;
+    //border: 1px solid green;
+    
+}
+
+.status-pl {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+#myCanvas {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    //border: 1px solid gray;
+     
+}
+
+.canvas-container {
+    width: 300px;
+    height: 300px;
+    margin: 25px auto;
+ 
+}
+
+.canvas {
+    width: 398px;
+    height: inherit;
+    float: left;
+    //border: 1px solid gold;
+    
+}

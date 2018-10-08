@@ -1,11 +1,6 @@
 # Python Fundamentos
 
-Data Science Academy - Python Fundamentos para Análise de Dados
-
-******* Este curso está sendo atualizado e os novos capítulos e scripts serão publicados semanalmente *******
-
-Para acompanhar as atualizações, acesse o curso em www.datascienceacademy.com.br
-
+Data Science Academy - Repositório dos Arquivos do Curso Gratuito Python Fundamentos para Análise de Dados
 
 https://www.datascienceacademy.com.br
 

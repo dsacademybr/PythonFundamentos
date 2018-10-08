@@ -1,0 +1,3 @@
+Para executar a app, digite:
+
+python app.py
