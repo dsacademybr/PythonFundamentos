@@ -44,4 +44,34 @@ float(5)
 5.0
 
 
+#Função para arredondamento de número float.
+>>> round(5.54321 ,2) #Pegou 2 números depois do ponto.
+5.54
 
+>>> round(5.57321 ,1) #Pegou 1 número depois do ponto e fez o arredondamento matemático.
+5.6
+
+
+################################################################################################################################
+
+Variáveis:
+a = 10 #variável a recebe o valor 10
+a = 15 #agora a variavé "a" não é mais 10 e sim 15. 
+
+Operadores de Atribuição:
+>>> print(var) #variável var tem o valor 0
+0
+>>> var += 10 #variável var tem o valor 10
+>>> print(var)
+10
+>>> var -= 5 #variável var teve subtraído 5, ou seja, no passo acima ela valia 10 agora vale 5 pois 10-5 = 5.
+>>> print(var)
+5
+>>> var /= 2 #variável var teve divisão por 2, ou seja, no passo acima ela valia 5 agora vale 2.5 pois 5/2 = 2.5.
+>>> print(var)
+2.5
+>>>
+>>>
+>>> var *= 4 #variável var foi múltiplicada por 4, ou seja, no passo acima ela valia 2.5 agora vale 10.0 pois 2.5*4 = 10.0
+>>> print(var)
+10.0
