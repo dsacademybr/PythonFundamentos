@@ -3,3 +3,20 @@
 """
   Isso é um comentário em bloco
 """
+
+Números e Operações Matemáticas.
+Os que mais são usados números inteiros e float. 
+
+Explicações de funções built in python 3
+https://docs.python.org/3.3/library/functions.html
+
+Com relação aos operadores relacionais, Python é parecido com Java. 
+== / Igualdade - Equivalência
+!= / Diferente de
+>
+<
+>=
+<=
+
+Só é diferente do Shell Script. 
+
