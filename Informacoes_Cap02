@@ -18,5 +18,30 @@ Com relação aos operadores relacionais, Python é parecido com Java.
 >=
 <=
 
-Só é diferente do Shell Script. 
+Só é diferente do Shell Script.
+
+Operações Matemáticas
+4 + 4 #Soma
+4 - 4 #Subtração
+4 / 3 #Divisão; o resultado será em float
+1.3333333333333333
+
+4 // 3 #Divisão;  o resultado será arredondado e exibido em int
+1
+
+4 * 3 #Multiplicação; o resultado será em int.
+12
+
+#Conversão de números. 
+
+#Detalhe que não está ocorrendo arredondamento. 
+#A função int está pegando apenas a parte int do número e exibindo.
+int(9.8)
+9
+
+#Está convertando o número int 5 para float 5.0
+float(5)
+5.0
+
+
 
