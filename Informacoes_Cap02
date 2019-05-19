@@ -75,3 +75,34 @@ Operadores de Atribuição:
 >>> var *= 4 #variável var foi múltiplicada por 4, ou seja, no passo acima ela valia 2.5 agora vale 10.0 pois 2.5*4 = 10.0
 >>> print(var)
 10.0
+
+################################################################################################################################
+
+STRINGS
+Não muda muito do que outras linguagens. 
+
+Indexação de String #Eu entendi que está tratando a string como um array em outras lingaguens e posso acessar cada elemento da string
+>>> nome = "Dalton"
+>>> print(nome)
+Dalton
+>>> print(nome[0])
+D
+>>> print(nome[2])
+l
+
+formas de "recortar" uma string
+nome="Dalton"
+print(nome[2:]) #Imprime a partir da posição 2 da string, começando na posição 0.
+lton
+
+print(nome[:3]) #Imprime as 3 primeiras posições da string. 
+Dal
+
+>>> print(nome[-1]) #Imprime o último carácter da string
+n 
+
+>>> print(nome[:-1]) #Imprime todas os caracteres MENOS o último.
+Dalto
+
+
+
