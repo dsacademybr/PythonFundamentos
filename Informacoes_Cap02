@@ -104,5 +104,35 @@ n
 >>> print(nome[:-1]) #Imprime todas os caracteres MENOS o último.
 Dalto
 
+Mais exemplo de como "recortar" uma string;
+>>> d="DaltonAugustoSoares"
+>>> d[:6]
+'Dalton'
+>>> nome=d[:6]
+>>> print(nome)
+Dalton
+>>> sobrenome=d[13:]
+>>> d[13:]
+'Soares'
+>>> 
+>>> print(sobrenome)
+Soares
+>>> fullName=nome+" "+sobrenome
+>>> print(fullName)
+Dalton Soares
+
+
+Transformando string Maiúsculo ou Minúsculo;
+>>> print(d)
+DaltonAugustoSoares
+
+>>> d.lower()           #Transformando em minúscula.
+'daltonaugustosoares'
+>>> 
+>>> d.upper()           #Transformando em maiúscula. 
+'DALTONAUGUSTOSOARES'
+
+
+
 
 
