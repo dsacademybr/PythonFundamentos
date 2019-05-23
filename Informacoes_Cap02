@@ -132,6 +132,41 @@ DaltonAugustoSoares
 >>> d.upper()           #Transformando em maiúscula. 
 'DALTONAUGUSTOSOARES'
 
+nome="dalton"
+nome.capitalize() #Coloca a primeira letra em maiúsculo. 
+Dalton
+
+Exemplos de split.
+>>> frase="Hello, Word"
+>>> frase.split(',')
+['Hello', ' Word']
+>>> frase.split(',')[0]
+'Hello'
+>>> frase.split(',')[1]
+' Word'
+>>> 
+
+Exemplo de split com capitalize. #Capitalize deixa a primeira letra maíscula.
+>>> d
+'dalton augusto soares'
+>>> d.split()
+['dalton', 'augusto', 'soares']
+>>> nome=d.split()[0]
+>>> nome
+'dalton'
+>>> nomeDoMeio=nome=d.split()[1]
+>>> nomeDoMeio
+'augusto'
+>>> 
+>>> sobrenome=d.split()[2]
+>>> sobrenome
+'soares'
+>>> fullName=nome.capitalize()+" "+nomeDoMeio.capitalize()+" "+sobrenome.capitalize()
+>>> fullName
+'Augusto Augusto Soares'
+
+
+
 
 
 
