@@ -165,9 +165,46 @@ Exemplo de split com capitalize. #Capitalize deixa a primeira letra maíscula.
 >>> fullName
 'Augusto Augusto Soares'
 
+###################################################################################################
 
+Listas #Entendi que lista é como se fosse array em outras linguagens. 
+>>> print(lista)
+['ovo', 'maça', 'leite']
+>>> print(lista[0]) #Imprimindo primeiro elemento da lista
+ovo
+>>> print(lista[-1]) #Imprimindo último elemento da lista
+leite
+>>> print(lista[1]) ##Imprimindo segundo elemento da lista
+maça
+>>> 
 
+Buscando um elemento dentro de uma lista
+"maça" in lista
+True
 
+"pera" in lista
+False
+
+>>> lista.append("pera") #Adicionando o item pera na última posição da lista
+>>> lista
+['ovo', 'maça', 'leite', 'pera']
+>>> 
+>>> lista.insert(2,"uva") #Adicionando o item uva na posição 2
+>>> lista
+['ovo', 'maça', 'uva', 'leite', 'pera']
+>>> 
+>>> lista.pop() #Removendo o último item da lista e retornando o nome dele.
+'pera'
+>>> lista
+['ovo', 'maça', 'uva', 'leite']
+>>> 
+>>> lista.pop(1) #Removendo o item na posição 1.
+'maça'
+>>> lista
+['ovo', 'uva', 'leite']
+
+Referência sobre listas
+https://www.devmedia.com.br/como-trabalhar-com-listas-em-python/37460
 
 
 
