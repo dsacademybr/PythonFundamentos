@@ -206,5 +206,36 @@ False
 Referência sobre listas
 https://www.devmedia.com.br/como-trabalhar-com-listas-em-python/37460
 
+###################################################################################################
+
+Dicionários
+>>> estudantes_dict = {"Mateus":24, "Fernanda":22, "Tamires":26, "Cristiano":25}
+		      
+>>> estudantes_dict["Mateus"] #Para acessar um item do dicionário uso o colchete. Igual na lista. 		      
+24
+
+>>> estudantes_dict["Dalton"]=29 #Não existia a chave Dalton, dessa maneira estou criando a chave com o valor 29.
+		      
+>>> estudantes_dict
+		      
+{'Mateus': 24, 'Fernanda': 22, 'Tamires': 26, 'Cristiano': 25, 'Dalton': 29} #Chave Dalton e valor 29 adicionados ao dicionário.
+
+>>> estudantes_dict.clear() #Limpando todo o dicionário.
+		      
+>>> estudantes_dict
+		      
+{}
+
+>>> del estudantes_dict #deletando o dicionário.
+		      
+>>> estudantes_dict
+		      
+Traceback (most recent call last):
+  File "<pyshell#48>", line 1, in <module>
+    estudantes_dict
+NameError: name 'estudantes_dict' is not defined
 
 
+
+Referência dicionários.
+https://blog.alura.com.br/trabalhando-com-o-dicionario-no-python/
