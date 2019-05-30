@@ -239,3 +239,38 @@ NameError: name 'estudantes_dict' is not defined
 
 Referência dicionários.
 https://blog.alura.com.br/trabalhando-com-o-dicionario-no-python/
+
+###################################################################################################
+
+Tuplas
+A diferença básica das tuplas para as listas é que as tuplas são imutáveis. 
+Não tem o método append o método del.
+
+Da mesma maneira que nas listas e no dicionário eu posso acessar um único item da tupla através do índice. 
+>>> tupla1[0]
+'Geografia'
+>>> tupla1[1]
+23
+>>> tupla1[2]
+'História'
+>>> 
+
+Também da mesma maneira que nas listas e nos dicionários, para eu saber quantos items tem na tupla eu uso o len
+Ex: 
+len(tupla1)
+3
+
+>>> tupla1
+('Geografia', 23, 'História')
+>>>
+>>> tupla1.index("História") #Me mostra em qual índice está o valor História. 
+2
+>>> 
+
+>>> list_tupla1=list(tupla1) #Criando uma lista a partir da tupla1 com o método list
+>>> list_tupla1
+['Geografia', 23, 'História']
+
+
+tupla2=tuple(list_tupla1) #Criando uma tupla a partir de uma lista com o método tuple. 
+
