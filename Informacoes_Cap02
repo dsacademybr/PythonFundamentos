@@ -51,6 +51,9 @@ float(5)
 >>> round(5.57321 ,1) #Pegou 1 número depois do ponto e fez o arredondamento matemático.
 5.6
 
+varNum=10
+str(varNum) #converte a variável varNum que é do tipo int para o tipo string.
+
 
 ################################################################################################################################
 
