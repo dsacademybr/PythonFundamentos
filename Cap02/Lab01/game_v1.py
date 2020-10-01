@@ -1,7 +1,10 @@
 # Game Ping-Pong
 
+#Tkinter is Python's de-facto standard GUI (Graphical User Interface) package
 from tkinter import *
+#Random library is used to access random value by system.
 import random
+#The Python time module provides many ways of representing time in code, such as objects, numbers, and strings.
 import time
 
 level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n"))
